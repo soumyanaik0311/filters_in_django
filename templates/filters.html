@@ -1,0 +1,32 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>{{data}}</h1>
+        <h1>{{data|lower}}</h1>
+        <h1>{{data|upper}}</h1>
+        <h1>{{data|capfirst}}</h1>
+        <h1>{{data|title}}</h1>
+        <h1>{{data|truncatechars:7}}</h1>
+        <h1>{{data|truncatewords:2}}</h1>
+        <h1>{{data|slice:7}}</h1>
+        <h1>{{time|time}}</h1>
+        <h1>{{time|date}}</h1>
+        
+        <h1>{{time|time:'f'}}</h1>
+        <h1>{{time|time:'h:i:s:u'}}</h1>
+
+        <h1>I have {{c}} cat{{c|pluralize}}</h1>
+        <h1>I have {{c}} mango{{c|pluralize:'es'}}</h1>
+
+
+    </center>
+</body>
+</html>
